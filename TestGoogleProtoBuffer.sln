@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleGrpc", "GoogleGrpc\GoogleGrpc.csproj", "{2A4A20E0-6F6B-4483-8D0A-814405563103}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{F361AE4F-FCCD-411F-B143-3FBAAA94CB0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientGrpc", "ClientGrpc\ClientGrpc.csproj", "{4758058F-1735-46AC-A18F-FCD11E1C111F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A4A20E0-6F6B-4483-8D0A-814405563103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A4A20E0-6F6B-4483-8D0A-814405563103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A4A20E0-6F6B-4483-8D0A-814405563103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A4A20E0-6F6B-4483-8D0A-814405563103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F361AE4F-FCCD-411F-B143-3FBAAA94CB0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F361AE4F-FCCD-411F-B143-3FBAAA94CB0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F361AE4F-FCCD-411F-B143-3FBAAA94CB0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F361AE4F-FCCD-411F-B143-3FBAAA94CB0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4758058F-1735-46AC-A18F-FCD11E1C111F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4758058F-1735-46AC-A18F-FCD11E1C111F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4758058F-1735-46AC-A18F-FCD11E1C111F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4758058F-1735-46AC-A18F-FCD11E1C111F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
