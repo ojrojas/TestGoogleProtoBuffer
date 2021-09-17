@@ -46,10 +46,6 @@ namespace Tests.WebApiTest
 
                 throw new Exception(ex.Message);
             }
-         
-
-        
-
         }
 
         [OneTimeTearDown]
